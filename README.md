@@ -1,9 +1,9 @@
 # **Hoàng Quý Long**
 
-### PTCĐ FPT Polytechnic (Now)
+### PTCĐ FPT Polytechnic (Hiện tại)
 ---
 > Các môn học của các kì học...
 ---
-### FPT University (Future)
+### FPT University (Tương lai)
 ---
 > Đại học trong tương lai...

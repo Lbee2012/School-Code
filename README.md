@@ -1,4 +1,4 @@
-# **Hoang Quy Long**
+# **Hoàng Quý Long**
 
 ### PTCĐ FPT Polytechnic (Now)
 ---

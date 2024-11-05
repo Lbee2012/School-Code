@@ -2,7 +2,7 @@
 
 ### PTCĐ FPT Polytechnic (Now)
 ---
-> Để các link dẫn tới các kì học ở dưới đây ...
+> Các môn học của các kì học...
 ---
 ### FPT University (Future)
 ---

@@ -1,4 +1,0 @@
-1, Hoang Quy Long, Ha Noi, Nam, SD1803
-3, Ta Quang The Dan, Ha Noi, Nam, SD1803
-4, Pham Ha Anh, Ha Noi, Nu, SD1803
-5, Duong Gia Minh, Ha Noi, Nam, GD1801

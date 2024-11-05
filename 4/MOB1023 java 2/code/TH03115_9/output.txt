@@ -1,3 +1,0 @@
-Java, Trinh thám, 100
-HTML & CSS, Trinh thám, 90
-Angular JS, Trinh thám, 110

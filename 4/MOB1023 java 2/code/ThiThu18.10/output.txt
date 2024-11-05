@@ -1,2 +1,0 @@
-1, Hoang Quy Long, Nam, Hang A, 3
-4, Pham Ha Anh, Nu, Hang C, 2

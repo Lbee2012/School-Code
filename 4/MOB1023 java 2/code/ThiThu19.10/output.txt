@@ -1,5 +1,0 @@
-KH01, Hoang Quy Long, 2007, VVIP, Nam
-KH02, Nguyen Khanh Minh, 2007, VVIP, Nu
-KH03, Ta Quang The Dan, 2007, VIP, Nam
-KH04, Pham Ha Anh, 2007, VIP, Nu
-KH05, Duong Gia Minh, 2007, Thuong, Nam

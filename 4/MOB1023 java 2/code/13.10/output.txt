@@ -1,5 +1,0 @@
-1, Macbook, M3 Ultra, Khong, 100.0
-2, Asus, i9 14900k, Co, 90.0
-3, Acer, i9 13900k, Co, 80.0
-4, MSI, i9 12900k, Co, 70.0
-5, Lenovo, i9 11900k, Co, 60.0

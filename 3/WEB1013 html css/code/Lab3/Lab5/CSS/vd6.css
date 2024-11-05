@@ -1,0 +1,20 @@
+.container{
+    display: block;
+}
+.sanpham
+{
+    display: inline;
+    padding: 10px black; 
+
+}
+.abc{
+    display: flex;
+}
+.buttom{
+    border: 5%;
+}
+b
+{
+    font-size: 22px;
+    color: rgb(226, 50, 50);
+}

@@ -1,0 +1,68 @@
+header {
+    background-color: navy;
+    padding: 1rem;
+}
+.timkiem {
+    float: right;
+    line-height: 60px;
+}
+.button {
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+.input {
+    border-color: orangered;
+}
+nav {
+    background-color: orangered;
+    height: 50px;
+    line-height: 50px;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 2rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+a:hover {
+    color: greenyellow;
+    text-shadow: 0 0 5px greenyellow;
+}
+article {
+    width: 100%;
+}
+article img:hover {
+    box-shadow: 0 0 5px green;
+}
+.column1 {
+    box-shadow: 0 0 2px black;
+    width: 45%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    float: left;
+}
+.column2 {
+    box-shadow: 0 0 2px black;
+    width: 45%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+.noidung {
+    display: flex;
+}
+.text {
+    margin-left: 1rem;
+}
+footer {
+    background-color: navy; 
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    clear: both;
+}

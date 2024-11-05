@@ -1,0 +1,73 @@
+.vmenu
+{ 
+    padding: 0px; 
+    margin: 5px; 
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a
+{
+    background: url('bullet_hover.gif') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover
+{
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.col-25
+{
+    width: 25%;
+    float: left;
+}
+.prod
+{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod > .name
+{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod > .image
+{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.prod > .price
+{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+.prod > .icons
+{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod > .newicon
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

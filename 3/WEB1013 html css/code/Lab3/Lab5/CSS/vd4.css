@@ -1,0 +1,19 @@
+.d1, .d2, .d3, .d4 
+{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: pink;
+}
+.d1, .d2, .d3
+{
+    float: left;
+}
+.d4
+{
+    clear: both;
+}
+div:hover
+{
+    background-color: plum;
+}

@@ -1,0 +1,5 @@
+NV1, Dan, 19, Dantqt12@gmail.com, 12000000
+NV6, kiki, 18, ha, 90000000
+NV3, Khanh Minh, 20, Minhnk10@gmail.com, 15000000
+NV4, A Long, 24, Longhqa12@gmail.com, 20000000
+NV5, Giap, 27, Giapnv03@gmail.com, 50000000

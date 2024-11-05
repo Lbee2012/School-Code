@@ -1,0 +1,16 @@
+.form-control 
+{
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: orangered;
+    display: block;
+    outline: none;
+}
+.form-control:focus
+{
+    box-shadow: 0 0 3px orangered;
+}

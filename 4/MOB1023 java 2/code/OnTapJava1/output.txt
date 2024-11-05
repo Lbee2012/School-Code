@@ -1,0 +1,5 @@
+1, Honda SH 160i, Xe ga, 160
+2, Honda Winner X, Xe con, 150
+3, Honda Cub 50, Xe so, 50
+4, Vinfast Theon S, Xe dien, 110
+5, Yamaha Exciter, Xe ga, 155

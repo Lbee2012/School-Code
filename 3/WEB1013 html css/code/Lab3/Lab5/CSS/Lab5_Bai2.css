@@ -1,0 +1,27 @@
+.khung
+{
+    width: 25%;
+    float: left;
+}
+.sanpham
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.sanpham .ten
+{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.sanpham .img {max-width: 95%;}
+.sanpham .gia
+{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.sanpham .gia del {color: gray;}

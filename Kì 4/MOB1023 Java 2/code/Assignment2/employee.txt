@@ -1,0 +1,4 @@
+1, Hoang Quy Long, 17, longhqth03115@fpt.edu.vn, 2.0E7
+2, Nguyen Khanh Minh, 17, minhnkth03032@fpt.edu.vn, 1.0E7
+4, Ta Quang The Dan, 17, dantqtth02882fpt.edu.vn, 1.5E7
+3, Pham Ha Anh, 17, anhphth03066fpt.edu.vn, 1.0E7

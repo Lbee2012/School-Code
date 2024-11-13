@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: lightblue;
+    background-image: url('img/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+nav {
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-shadow: 0 0 2px green;
+}
+.timkiem {
+    float: right;
+}
+button {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+article {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    font-size: 25px;
+}
+article h1 {
+    color: brown;
+}
+aside {
+
+}
+footer {
+    clear: both;
+    background-color: cadetblue;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}

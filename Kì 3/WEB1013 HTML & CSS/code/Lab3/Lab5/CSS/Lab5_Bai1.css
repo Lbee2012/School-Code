@@ -1,0 +1,17 @@
+.khung {text-align: center;}
+img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 5px green;
+    background-color: yellow;
+}
+img:hover
+{
+    box-shadow: 0px 0px 20px red;
+    background-color: aqua;
+}

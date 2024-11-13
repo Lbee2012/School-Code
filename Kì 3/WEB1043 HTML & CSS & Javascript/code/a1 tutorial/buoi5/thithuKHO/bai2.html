@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Hóa Đơn Tiền Điện</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+
+        .success {
+            color: green;
+            font-size: 14px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            margin-right: 8px;
+        }
+
+        .radio-label {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .result p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Form Hóa Đơn Tiền Điện</h2>
+    <form id="electricityForm">
+        <!-- Tên chủ hộ -->
+        <label for="name">Tên chủ hộ:</label>
+        <input type="text" id="name" name="name" required>
+        <span class="error" id="nameError"></span>
+
+        <!-- Địa Chỉ -->
+        <label for="address">Địa Chỉ:</label>
+        <input type="text" id="address" name="address" required>
+        <span class="error" id="addressError"></span>
+
+        <!-- Hộ Gia Đình -->
+        <label>Hộ Gia Đình:</label>
+        <div class="radio-label">
+            <input type="radio" id="business" name="household" value="business">
+            <label for="business">Hộ Kinh Doanh</label>
+        </div>
+        <div class="radio-label">
+            <input type="radio" id="residential" name="household" value="residential">
+            <label for="residential">Nhà Ở</label>
+        </div>
+        <span class="error" id="householdError"></span>
+
+        <!-- Số điện -->
+        <label for="electricityUsage">Số điện:</label>
+        <input type="number" id="electricityUsage" name="electricityUsage" required>
+        <span class="error" id="electricityError"></span>
+
+        <!-- Button Tính Toán -->
+        <button type="button" onclick="calculateBill()">Tính Toán</button>
+    </form>
+
+    <div class="result" id="result" style="display:none;">
+        <h3>Thông Tin Hóa Đơn</h3>
+        <p id="displayName"></p>
+        <p id="displayAddress"></p>
+        <p id="displayHousehold"></p>
+        <p id="displayElectricityUsage"></p>
+        <p id="displayTotalCost"></p>
+    </div>
+
+    <script>
+        // Function to validate form
+        function validateForm() {
+            let isValid = true;
+
+            // Validate Tên chủ hộ
+            const name = document.getElementById('name');
+            const nameError = document.getElementById('nameError');
+            if (name.value.trim() === '') {
+                nameError.textContent = 'Tên chủ hộ không được để trống.';
+                isValid = false;
+            } else {
+                nameError.textContent = '';
+            }
+
+            // Validate Địa Chỉ
+            const address = document.getElementById('address');
+            const addressError = document.getElementById('addressError');
+            if (address.value.trim() === '') {
+                addressError.textContent = 'Địa chỉ không được để trống.';
+                isValid = false;
+            } else {
+                addressError.textContent = '';
+            }
+
+            // Validate Hộ Gia Đình
+            const business = document.getElementById('business');
+            const residential = document.getElementById('residential');
+            const householdError = document.getElementById('householdError');
+            if (!business.checked && !residential.checked) {
+                householdError.textContent = 'Vui lòng chọn loại hộ gia đình.';
+                isValid = false;
+            } else {
+                householdError.textContent = '';
+            }
+
+            // Validate Số điện
+            const electricityUsage = document.getElementById('electricityUsage');
+            const electricityError = document.getElementById('electricityError');
+            if (electricityUsage.value.trim() === '') {
+                electricityError.textContent = 'Số điện không được để trống.';
+                isValid = false;
+            } else if (Number(electricityUsage.value) <= 0) {
+                electricityError.textContent = 'Số điện phải là số dương.';
+                isValid = false;
+            } else {
+                electricityError.textContent = '';
+            }
+
+            return isValid;
+        }
+
+        // Event listeners for onchange and onblur
+        document.getElementById('name').addEventListener('change', validateForm);
+        document.getElementById('name').addEventListener('blur', validateForm);
+
+        document.getElementById('address').addEventListener('change', validateForm);
+        document.getElementById('address').addEventListener('blur', validateForm);
+
+        document.querySelectorAll('input[name="household"]').forEach((elem) => {
+            elem.addEventListener('change', validateForm);
+        });
+
+        document.getElementById('electricityUsage').addEventListener('change', validateForm);
+        document.getElementById('electricityUsage').addEventListener('blur', validateForm);
+
+        // Function to calculate bill
+        function calculateBill() {
+            if (validateForm()) {
+                // Get input values
+                const name = document.getElementById('name').value;
+                const address = document.getElementById('address').value;
+                const household = document.querySelector('input[name="household"]:checked').value;
+                const electricityUsage = Number(document.getElementById('electricityUsage').value);
+
+                // Calculate total cost
+                let costPerKw = household === 'business' ? 3000 : 2000;
+                const totalCost = electricityUsage * costPerKw;
+
+                // Display results
+                document.getElementById('displayName').textContent = 'Tên chủ hộ: ' + name;
+                document.getElementById('displayAddress').textContent = 'Địa chỉ: ' + address;
+                document.getElementById('displayHousehold').textContent = 'Loại hộ gia đình: ' + (household === 'business' ? 'Hộ Kinh Doanh' : 'Nhà Ở');
+                document.getElementById('displayElectricityUsage').textContent = 'Số điện: ' + electricityUsage;
+                document.getElementById('displayTotalCost').textContent = 'Tổng tiền điện: ' + totalCost.toLocaleString('vi-VN') + ' VNĐ';
+
+                // Show the result div
+                document.getElementById('result').style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>

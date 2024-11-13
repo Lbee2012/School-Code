@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Đăng ký</h1>
+    <form action="" onsubmit="return validateForm()">
+        <div>
+            <label>Họ và tên:</label>
+            <input type="text" id="name">
+            <span id="nameError"></span>
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="text" id="email">
+            <span id="emailError"></span>
+        </div>
+        <div>
+            <label>Mật khẩu</label>
+            <input type="password" id="password">
+            <span id="passwordError"></span>
+        </div>
+        <div>
+            <label>Năm sinh:</label>
+            <input type="number" id="year">
+            <span id="yearError"></span>
+        </div>
+        <br>
+        <button type="submit">Đăng ký</button>
+    </form>
+    </div>
+
+    <script src="bai2.js"></script>
+</body>
+</html>

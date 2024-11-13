@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <style>
+        /* style.css */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #ccc;
+        }
+
+        li.read {
+            text-decoration: line-through;
+            background-color: #e0e0e0;
+        }
+
+        li .book-info {
+            flex-grow: 1;
+        }
+
+        li button {
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Library Management</h1>
+    <form id="bookForm">
+        <input type="text" id="bookTitle" placeholder="Tên sách" required>
+        <input type="text" id="bookAuthor" placeholder="Tác giả" required>
+        <button type="submit">Thêm sách</button>
+    </form>
+    <ul id="bookList">
+        <!-- Danh sách sách sẽ được thêm vào đây -->
+    </ul>
+    <script>
+        // script.js
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const bookForm = document.getElementById('bookForm');
+            const bookList = document.getElementById('bookList');
+
+            // Xử lý sự kiện khi form được submit
+            bookForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+
+                // Lấy giá trị từ các ô input
+                const title = document.getElementById('bookTitle').value;
+                const author = document.getElementById('bookAuthor').value;
+
+                // Tạo phần tử sách mới
+                const bookItem = createBookItem(title, author);
+
+                // Thêm phần tử sách vào danh sách
+                bookList.appendChild(bookItem);
+
+                // Reset form
+                bookForm.reset();
+            });
+
+            // Hàm tạo phần tử sách mới
+            function createBookItem(title, author) {
+                const li = document.createElement('li');
+
+                const bookInfo = document.createElement('span');
+                bookInfo.className = 'book-info';
+                bookInfo.textContent = `${title} - ${author}`;
+
+                const editButton = document.createElement('button');
+                editButton.textContent = 'Chỉnh sửa';
+                editButton.addEventListener('click', () => editBookItem(bookInfo));
+
+                const deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Xóa';
+                deleteButton.addEventListener('click', () => li.remove());
+
+                const markReadButton = document.createElement('button');
+                markReadButton.textContent = 'Đã đọc';
+                markReadButton.addEventListener('click', () => li.classList.toggle('read'));
+
+                li.appendChild(bookInfo);
+                li.appendChild(editButton);
+                li.appendChild(deleteButton);
+                li.appendChild(markReadButton);
+
+                return li;
+            }
+
+            // Hàm chỉnh sửa thông tin sách
+            function editBookItem(bookInfo) {
+                const newTitle = prompt('Nhập tên sách mới', bookInfo.textContent.split(' - ')[0]);
+                const newAuthor = prompt('Nhập tác giả mới', bookInfo.textContent.split(' - ')[1]);
+
+                if (newTitle && newAuthor) {
+                    bookInfo.textContent = `${newTitle} - ${newAuthor}`;
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

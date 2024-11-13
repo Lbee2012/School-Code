@@ -1,0 +1,35 @@
+body
+{
+    padding: 0;
+    margin: 0%;
+}
+header
+{
+    height: 150px;
+    background: red;
+}
+nav
+{
+    background: yellow;
+    line-height: 25px;
+}
+article
+{
+    min-height: 200px;
+    width: 75%;
+    background: white;
+    float: left;
+}
+aside
+{
+    min-height: 200px;
+    width: 75%;
+    background: pink;
+    float: left;
+}
+footer
+{
+    height: 40px;
+    background: gray;
+    clear: both;
+}

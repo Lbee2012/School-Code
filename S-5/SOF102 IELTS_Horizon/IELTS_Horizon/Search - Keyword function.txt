@@ -1,0 +1,17 @@
+| ID    | Precondition                      | Action                         | Input 1 (Search Keyword) | Expected Result                        | Error Message                            | P/F  | Type |
+|-------|-----------------------------------|--------------------------------|--------------------------|----------------------------------------|------------------------------------------|------|------|
+| TC-01 | User is logged in                 | Enter valid keyword           | "IELTS Writing"         | Relevant courses are displayed         | None                                     | P    | N    |
+| TC-02 | User is logged in                 | Enter partial keyword         | "IELTS Wri"             | Matching courses are displayed         | None                                     | P    | N    |
+| TC-03 | User is logged in                 | Enter case-insensitive keyword | "ielts writing"        | Relevant courses are displayed         | None                                     | P    | N    |
+| TC-04 | User is logged in                 | Enter a random non-existing keyword | "abcdefgh"      | No results found message shown        | No courses found                         | P    | N    |
+| TC-05 | User is logged in                 | Enter special characters       | "@#$%^&*"               | No results found message shown        | No courses found                         | P    | A    |
+| TC-06 | User is logged in                 | Enter numeric input            | "123456"                | No results found message shown        | No courses found                         | P    | A    |
+| TC-07 | User is logged in                 | Enter empty search             | ""                      | No results found message shown        | Search keyword cannot be empty           | F    | A    |
+| TC-08 | User is logged in                 | Enter whitespace only          | "   "                   | No results found message shown        | Search keyword cannot be empty           | F    | A    |
+| TC-09 | User is logged in                 | Enter excessively long keyword | "IELTS Writing Preparation Advanced 2024 for Beginners" | No results found message shown | Search keyword exceeds character limit | F    | B    |
+| TC-10 | User is logged in                 | Use keyword with typos         | "IELST Wrting"         | Relevant courses with typo tolerance  | None                                     | P    | N    |
+| TC-11 | User is logged out                | Enter valid keyword           | "IELTS Speaking"        | Redirect to login page                | User must be logged in to search         | F    | N    |
+| TC-12 | User is logged in, session expired | Enter valid keyword           | "IELTS Listening"       | Redirect to login page                | Session expired, please log in again     | F    | N    |
+| TC-13 | User is logged in, network slow   | Enter valid keyword           | "IELTS Reading"        | Delayed results                       | Search taking longer than usual          | P    | N    |
+| TC-14 | User is logged in, server down    | Enter valid keyword           | "IELTS Vocabulary"     | Search fails                          | Server error, try again later            | F    | N    |
+| TC-15 | User is logged in, large dataset  | Enter valid keyword           | "English"              | Pagination or load more results       | None                                     | P    | N    |

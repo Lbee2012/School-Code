@@ -1,0 +1,133 @@
+IELTS Horizon
+│
+├── Admin
+│   ├── User Management
+│   │   ├── Create/Edit/Delete admin accounts (pre-configured, not public registration)
+│   │   ├── Deactivate user accounts (Teacher, Student)
+│   │   ├── Reset user passwords
+│   │   ├── Manage user profiles (edit basic info)
+│   │   ├── Assign account status (active, suspended, banned)
+│   │   ├── Enable/Disable specific user account features (e.g., messaging, course access)
+│   │
+│   ├── System Management
+│   │   ├── Configure platform settings (appearance, notifications, payment gateways)
+│   │   ├── Set platform-wide rules (file size limits, allowed file types)
+│   │   ├── Monitor server status and uptime
+│   │   ├── Update platform software and plugins
+│   │   ├── Backup and restore platform data
+│   │
+│   ├── Course Oversight
+│   │   ├── Review Teacher-uploaded courses for rule violations
+│   │   ├── Approve/Reject course publication requests
+│   │   ├── Monitor course analytics (enrollment rates, completion rates)
+│   │   ├── Flag or suspend rule-violating courses
+│   │   ├── View and manage course categories
+│   │
+│   ├── Reporting & Analytics
+│   │   ├── View platform-wide statistics (active users, revenue, top courses)
+│   │   ├── Export detailed user activity logs
+│   │   ├── Generate monthly/weekly reports
+│   │   ├── View teacher and student activity heatmaps
+│   │
+│   ├── Security & Compliance
+│   │   ├── Set up two-factor authentication (2FA) policies
+│   │   ├── Monitor suspicious user activity
+│   │   ├── Manage access control lists (ACLs)
+│   │   ├── Conduct regular security audits
+│   │
+│   ├── Communication
+│       ├── Send global announcements to all users
+│       ├── Respond to platform-related support tickets
+│       ├── Manage automated system emails (e.g., password reset emails)
+│       ├── Enable/Disable chat and forums globally
+│
+├── Teacher
+│   ├── Course Management
+│   │   ├── Create/Edit/Delete courses
+│   │   ├── Organize lesson sequences
+│   │   ├── Upload course materials (videos, PDFs, slides, quizzes)
+│   │   ├── Publish/Unpublish individual course sections
+│   │   ├── Set course pricing (if applicable)
+│   │   ├── Set course prerequisites (e.g., must complete Course A before Course B)
+│   │   ├── Duplicate courses for reuse
+│   │
+│   ├── Content Management
+│   │   ├── Add supplementary content (handouts, downloadable files)
+│   │   ├── Embed external resources (YouTube, Google Docs, external links)
+│   │   ├── Create interactive activities (polls, quizzes, discussions)
+│   │   ├── Manage visibility (public, private, invite-only)
+│   │   ├── Archive old courses
+│   │
+│   ├── Assessment & Grading
+│   │   ├── Create quizzes, assignments, and exams
+│   │   ├── Enable auto-grading for quizzes
+│   │   ├── Manually grade essays and project submissions
+│   │   ├── Provide written/audio/video feedback
+│   │   ├── Set assignment deadlines and reminders
+│   │   ├── Enable/Disable re-submission options
+│   │
+│   ├── Student Management
+│   │   ├── View particularly student profile, classes progress reports
+│   │   ├── Track attendance for live sessions
+│   │   ├── Lock/Unlock course modules for specific students
+│   │   ├── Send targeted announcements (individuals or groups)
+│   │   ├── Recommend additional learning resources
+│   │   ├── Approve/Deny student requests for extensions or special permissions
+│   │
+│   ├── Analytics
+│   │   ├── View course analytics (engagement rate, drop-off points)
+│   │   ├── Track student performance trends
+│   │   ├── Identify struggling students via analytics dashboards
+│   │
+│   ├── Communication
+│   │   ├── Host live Q&A sessions
+│   │   ├── Moderate course-specific discussion forums
+│   │   ├── Send direct messages to students
+│   │   ├── Schedule virtual office hours
+│   │   ├── Enable/Disable comments on course materials
+│   │
+│   ├── Certification
+│   │   ├── Issue completion certificates for students
+│   │   ├── Customize certificate templates (if allowed by the system)
+│   │   ├── Set certification requirements (e.g., minimum grade, attendance)
+│   │
+│   ├── Monetization (Optional)
+│       ├── Enable/Disable paid courses
+│       ├── Manage course pricing tiers
+│       ├── Offer discounts or promo codes
+│
+├── Student - Learner
+│   ├── Profile & Settings
+│   │   ├── View and update personal profile
+│   │   ├── Change avatar, email, password
+│   │   ├── Enable/Disable notifications (email, SMS, in-app)
+│   │   ├── Set learning goals and reminders
+│   │   ├── View subscription plans (if applicable)
+│   │   ├── Delete account (subject to admin approval)
+│   │
+│   ├── Enroll & Learn
+│   │   ├── Browse and search available courses
+│   │   ├── Enroll in free or paid courses
+│   │   ├── View detailed course outlines and prerequisites
+│   │   ├── Access video lectures, PDFs, slides
+│   │   ├── Mark lessons as complete
+│   │   ├── Download course materials (if allowed)
+│   │   ├── Revisit completed courses anytime
+│   │
+│   ├── Assignments & Tests
+│   │   ├── Attempt quizzes and exams
+│   │   ├── Submit assignments and projects
+│   │   ├── View grades and teacher feedback
+│   │   ├── Check deadlines for upcoming assignments
+│   │   ├── Download graded assignments with feedback
+│   │   ├── Request assignment extensions
+│
+│   ├── Progress Tracking
+│   │   ├── View course completion progress
+│   │   ├── Track performance across multiple courses
+│   │   ├── Access detailed grade breakdowns
+│
+└── Notes:
+    ├── Admin: Handles platform-level oversight, compliance, and settings.
+    ├── Teacher: Has full control over their own courses.
+    ├── Student: a.

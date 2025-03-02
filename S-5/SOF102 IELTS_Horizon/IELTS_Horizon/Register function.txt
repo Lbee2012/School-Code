@@ -1,0 +1,21 @@
+| Test Case ID | Precondition                  | Username              | Email                  | Password         | Expected Result               | Pass/Fail | Type | Error Message                          |
+|-------------|------------------------------|----------------------|----------------------|-----------------|-------------------------------|-----------|------|--------------------------------------|
+| TC-01       | Server online                | Skibidi123          | sigmaboy@fpt.edu.vn | Password@123     | Registration successful       | P         | N    | None                                 |
+| TC-02       | Server online                | Sk                   | sigmaboy@fpt.edu.vn | Password@123     | Username too short            | F         | A    | Username must be at least 8 chars   |
+| TC-03       | Server online                | SkibidiDopDopYesYes123 | sigmaboy@fpt.edu.vn | Password@123     | Username too long             | F         | B    | Username cannot exceed 16 chars     |
+| TC-04       | Server online                | Skibidi$              | sigmaboy@fpt.edu.vn | Password@123     | Invalid username format       | F         | A    | Username can only contain letters   |
+| TC-05       | Server online                |                      | sigmaboy@fpt.edu.vn | Password@123     | Username required             | F         | A    | Username field cannot be empty      |
+| TC-06       | Server online                | Skibidi123            | sigmaboy@domain     | Password@123     | Invalid email format          | F         | A    | Email format is incorrect          |
+| TC-07       | Server online                | Skibidi123            |                      | Password@123     | Email required                | F         | A    | Email field cannot be empty        |
+| TC-08       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn |                 | Password required             | F         | A    | Password field cannot be empty     |
+| TC-09       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | 1234567          | Password too short            | F         | B    | Password must be at least 8 chars  |
+| TC-10       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | 12345678901234567 | Password too long             | F         | B    | Password cannot exceed 16 chars    |
+| TC-11       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Password 123     | Invalid password format       | F         | A    | Password cannot contain spaces     |
+| TC-12       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Skibidi123       | Password same as username     | F         | A    | Password cannot be same as username |
+| TC-13       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Password@123     | Email already exists          | F         | N    | This email is already registered  |
+| TC-14       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Password@123     | Registration successful       | P         | N    | None                                 |
+| TC-15       | Server offline               | Skibidi123            | sigmaboy@fpt.edu.vn | Password@123     | Server error                  | F         | N    | Server is temporarily unavailable  |
+| TC-16       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Password@123     | Timeout error                 | F         | N    | Request timed out                  |
+| TC-17       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Password@123     | Database error                | F         | N    | Database error. Contact support    |
+| TC-18       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Password@123     | Session expired               | F         | N    | Your session has expired. Try again |
+| TC-19       | Server online                | Skibidi123            | sigmaboy@fpt.edu.vn | Password@123     | Registration successful       | P         | N    | None                                 |

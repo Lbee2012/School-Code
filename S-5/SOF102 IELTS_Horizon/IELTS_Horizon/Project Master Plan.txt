@@ -1,0 +1,105 @@
+## Project Master Plan - Agile Scrum Development  
+
+### Sprint 1: Project Initialization & Planning  
+| Task Name                            | Description                                                   | Assignee                     | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|------------------------------|-------------|-------------|
+| Define Project Scope                 | Identify key objectives, features, and deliverables          | Quý Long, Tiến Thành        | 01/03/2025  | 02/03/2025  |
+| Identify Stakeholders                | Determine key project stakeholders and roles                 | Quý Long                    | 02/03/2025  | 03/03/2025  |
+| Establish Project Timeline           | Define major milestones and sprint planning                  | Tiến Thành                  | 03/03/2025  | 04/03/2025  |
+| Set Up Development Environment       | Configure tools, repositories, and cloud infrastructure      | Trung Kiên, Tiến Vinh, Quang Vinh | 04/03/2025  | 06/03/2025  |
+| Define Tech Stack & Tools            | Choose backend, frontend, and database technologies          | Trung Kiên, Hà Anh          | 05/03/2025  | 07/03/2025  |
+| Initial UI/UX Wireframing            | Create rough UI wireframes for key pages                     | Hà Anh                      | 06/03/2025  | 09/03/2025  |
+| Set Up Communication & Workflow      | Establish project tracking system (Jira, Trello)             | Tiến Thành                  | 07/03/2025  | 09/03/2025  |
+| Risk Analysis & Contingency Planning | Identify potential risks and plan mitigation strategies      | Quý Long, Tiến Thành        | 08/03/2025  | 10/03/2025  |
+
+---
+
+### Sprint 2: Backend Setup & Authentication  
+| Task Name                            | Description                                                   | Assignee             | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|----------------------|-------------|-------------|
+| Implement Authentication System      | Develop user authentication (Register/Login)                 | Trung Kiên, Tiến Vinh | 11/03/2025  | 14/03/2025  |
+| Role-Based Access Control (RBAC)     | Assign user roles (Admin, Teacher, Student)                  | Trung Kiên, Quang Vinh | 12/03/2025  | 15/03/2025  |
+| Implement Password Recovery          | Allow users to reset passwords via email                     | Tiến Vinh, Quang Vinh | 13/03/2025  | 16/03/2025  |
+| Secure API Endpoints                 | Ensure security protocols for login sessions                 | Trung Kiên          | 14/03/2025  | 17/03/2025  |
+| UI for Authentication & Registration | Develop login and registration UI                            | Hà Anh              | 15/03/2025  | 18/03/2025  |
+| User Verification via Email/SMS      | Implement OTP for secure authentication                      | Quang Vinh          | 16/03/2025  | 19/03/2025  |
+| Logging & Activity Monitoring        | Track user login attempts and account activities             | Tiến Thành          | 17/03/2025  | 20/03/2025  |
+| Test Authentication System           | Validate login, register, and password recovery workflows    | Tiến Thành          | 18/03/2025  | 20/03/2025  |
+
+---
+
+## Sprint 3: Course Management & Content Upload  
+| Task Name                            | Description                                                   | Assignee             | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|----------------------|-------------|-------------|
+| Course Creation System               | Allow teachers to create & publish courses                   | Trung Kiên          | 01/03/2025  | 03/03/2025  |
+| Course Editing & Management          | Enable teachers to update & modify course content            | Quang Vinh          | 02/03/2025  | 04/03/2025  |
+| Course Categorization & Tagging      | Organize courses by skills (Listening, Writing, etc.)        | Tiến Thành          | 03/03/2025  | 05/03/2025  |
+| Uploading Course Materials           | Allow teachers to add PDFs, videos, and quizzes              | Tiến Vinh           | 04/03/2025  | 06/03/2025  |
+| Course Preview & Trial Lessons       | Provide students with free previews of paid courses          | Hà Anh              | 05/03/2025  | 07/03/2025  |
+| Instructor Dashboard                 | Manage course enrollments, performance & feedback            | Tiến Thành, Hà Anh  | 06/03/2025  | 08/03/2025  |
+| Automated Course Approval Workflow   | Review & approve new courses before publishing               | Tiến Thành          | 07/03/2025  | 09/03/2025  |
+
+---
+
+## Sprint 4: Payment Integration & Subscription Plans  
+| Task Name                            | Description                                                   | Assignee             | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|----------------------|-------------|-------------|
+| Payment Gateway Integration         | Integrate Stripe & PayPal for secure transactions            | Trung Kiên          | 10/03/2025  | 12/03/2025  |
+| One-Time Payment for Courses        | Allow students to purchase individual courses                | Quang Vinh          | 11/03/2025  | 13/03/2025  |
+| Subscription Plan Implementation    | Offer monthly & yearly subscription packages                 | Tiến Vinh           | 12/03/2025  | 14/03/2025  |
+| Apply Discount & Coupons            | Enable discount codes & promotional offers                   | Hà Anh              | 13/03/2025  | 15/03/2025  |
+| Payment History & Receipts          | Display transaction history for users                        | Tiến Thành          | 14/03/2025  | 16/03/2025  |
+| Secure Transaction Handling         | Ensure encrypted & fraud-protected payments                  | Trung Kiên, Tiến Thành | 15/03/2025  | 17/03/2025  |
+| Refund & Cancellation System        | Allow students to request refunds for eligible courses       | Tiến Thành, Tiến Vinh | 16/03/2025  | 18/03/2025  |
+
+---
+
+## Sprint 5: User Profile, Progress Tracking & Learning Tools  
+| Task Name                            | Description                                                   | Assignee             | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|----------------------|-------------|-------------|
+| User Profile Page                    | Display student & teacher profiles                           | Hà Anh              | 20/03/2025  | 22/03/2025  |
+| Learning Progress Tracker            | Show students' progress across all enrolled courses         | Tiến Thành          | 21/03/2025  | 23/03/2025  |
+| Goal-Setting Feature                 | Allow students to set learning milestones                   | Trung Kiên          | 22/03/2025  | 24/03/2025  |
+| Personalized Course Recommendations  | Suggest courses based on student progress                   | Quang Vinh          | 23/03/2025  | 25/03/2025  |
+| Study Timer & Productivity Tools     | Implement a study timer to encourage focus                  | Tiến Vinh           | 24/03/2025  | 26/03/2025  |
+| Performance Reports                   | Generate reports for students on strengths & weaknesses     | Tiến Thành          | 25/03/2025  | 27/03/2025  |
+| Data Synchronization Across Devices   | Ensure users can access progress across multiple devices    | Quang Vinh, Trung Kiên | 26/03/2025  | 28/03/2025  |
+
+---
+
+### Sprint 6: Notifications & Progress Tracking  
+| Task Name                            | Description                                                   | Assignee             | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|----------------------|-------------|-------------|
+| Push Notification System             | Implement in-app notifications for course updates            | Tiến Vinh           | 18/04/2025  | 20/04/2025  |
+| Email Notification Setup             | Configure email alerts for course updates & reminders        | Tiến Thành          | 19/04/2025  | 21/04/2025  |
+| Learning Progress Dashboard          | Show students' learning journey in a visual format           | Quang Vinh          | 19/04/2025  | 22/04/2025  |
+| Certificate Generation System        | Issue digital certificates upon course completion            | Trung Kiên          | 20/04/2025  | 23/04/2025  |
+| Activity Log & User Analytics        | Monitor and track user engagement on the platform            | Tiến Thành          | 21/04/2025  | 24/04/2025  |
+| Optimize Notification Performance    | Reduce delay in notification delivery                        | Tiến Vinh           | 22/04/2025  | 25/04/2025  |
+
+---
+
+### Sprint 7: Feedback & Community Features  
+| Task Name                            | Description                                                   | Assignee             | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|----------------------|-------------|-------------|
+| Course & Teacher Reviews             | Allow students to rate and review courses & teachers         | Trung Kiên          | 23/04/2025  | 25/04/2025  |
+| Comment System on Courses            | Enable students to discuss within course pages               | Quang Vinh          | 24/04/2025  | 26/04/2025  |
+| Community Forum for Learners         | Create a Q&A space for students                              | Tiến Vinh           | 25/04/2025  | 27/04/2025  |
+| Instructor Q&A Feature               | Allow students to ask questions directly to instructors      | Hà Anh, Trung Kiên  | 26/04/2025  | 28/04/2025  |
+| User Report System                   | Allow users to report inappropriate content                  | Tiến Thành          | 27/04/2025  | 29/04/2025  |
+| Feedback & Bug Reporting             | Collect feedback from students for future improvements       | Tiến Thành          | 28/04/2025  | 30/04/2025  |
+
+---
+
+### Sprint 8: Final Testing & Deployment  
+| Task Name                            | Description                                                   | Assignee             | Start Date   | End Date     |
+|--------------------------------------|---------------------------------------------------------------|----------------------|-------------|-------------|
+| Final Security & Performance Testing | Ensure system stability before launch                        | Tiến Thành, Trung Kiên | 01/05/2025  | 04/05/2025  |
+| Beta Testing with Sample Users       | Conduct usability testing with real students                 | Tiến Thành, Hà Anh  | 02/05/2025  | 05/05/2025  |
+| Fix Critical Bugs & Issues           | Resolve high-priority bugs reported during testing           | Quang Vinh, Tiến Vinh | 03/05/2025  | 06/05/2025  |
+| Final Optimization & Load Testing    | Ensure smooth performance under high user traffic            | Trung Kiên, Tiến Vinh | 04/05/2025  | 07/05/2025  |
+| Deployment to Production Server      | Deploy final version to cloud servers                        | Trung Kiên, Quang Vinh | 05/05/2025  | 08/05/2025  |
+| Marketing & Pre-Launch Announcement  | Promote platform before official launch                      | Quý Long             | 06/05/2025  | 09/05/2025  |
+| Launch & Go Live                      | Officially launch IELTS Horizon                              | Quý Long, Toàn Team | 07/05/2025  | 10/05/2025  |
+
+---

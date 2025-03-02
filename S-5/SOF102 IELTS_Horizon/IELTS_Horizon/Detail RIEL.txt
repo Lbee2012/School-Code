@@ -1,0 +1,121 @@
+### Login System (All)
+
+- Register
+
+- Login
+
+- Logout
+
+- Reset Password
+
+---
+
+### User Management System (Admin)
+
+- Manage Users - Edit
+
+- Manage Users - Delete
+
+- Assign User Account Status - Set Inactive
+
+- Assign User Account Status - Set Suspended
+
+---
+
+### Course Management System (Teacher)
+
+- Courses - Create
+
+- Courses - Edit
+
+- Courses - Delete
+
+- Content - Create Exercises
+
+- Content - Add Resources
+
+- Content - Upload Files
+
+- Content - Set Audience
+
+- Content - Set Requirements (For Auto-Grading)
+
+---
+
+### Learning System (Student)
+
+2.4.4.1 UC-1 Search - Keyword
+2.4.4.2 UC-2 Search - Categories
+2.4.4.3 UC-3 Search - Enroll in Courses
+2.4.4.4 UC-4 Course - Access Materials
+2.4.4.5 UC-5 Course - Submit Assignments
+2.4.4.6 UC-6 Course - Check Scores
+2.4.4.7 UC-7 Course - Rate Course Overall
+2.4.4.8 UC-8 Overview Total Learning Progress
+2.4.4.9 UC-9 Set Goals
+2.4.4.10 UC-10 Request Support
+2.4.4.11 UC-11 Add Course to Wishlist
+2.4.4.12 UC-12 Download Certificates
+
+- Search - Name (Keyword)
+
+- Search - Categories (Skill-based)
+
+- Enroll in Courses (Check if Paid)
+
+- Course - Access Materials
+
+- Course - Submit Assignments
+
+- Course - Check Scores
+
+- Course - Rate Course Overall
+
+- Overview Total Learning Progress
+
+- Set Goals
+
+- Request Support (Tickets)
+
+- Add Course to Wishlist
+
+- Download Certificates
+
+---
+
+### Communication System (All)
+
+2.4.5.1 UC-1 Student - Join Live Sessions
+2.4.5.2 UC-2 Student - Communicate in Forums
+2.4.5.3 UC-3 Teacher - Schedule Live Sessions
+2.4.5.4 UC-4 Teacher - Feedback
+2.4.5.5 UC-5 Admin - Reply Reported Tickets
+
+
+- Student:
+  - Join Live Sessions
+  - Communicate in Forums
+
+- Teacher:
+  - Schedule Live Sessions
+  - Feedback
+
+- Admin:
+  - Reply Reported Tickets
+
+---
+
+### Payment System (Student)
+
+2.4.6.1 UC-1 View Invoice
+2.4.6.2 UC-2 Payment - Paying
+2.4.6.3 UC-3 Payment - Add Discount
+2.4.6.4 UC-4 Request Course Refund
+
+- View Invoice
+
+- Payment - Paying
+
+- Payment - Add Discount (Gift Code)
+
+- Request Course Refund

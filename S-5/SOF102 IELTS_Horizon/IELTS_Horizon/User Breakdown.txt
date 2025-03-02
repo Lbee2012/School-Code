@@ -1,0 +1,146 @@
+IELTS Horizon  
+│  
+├── Admin  
+│   ├── User Management  
+│   │   ├── Edit User Accounts (Teachers, Students)  
+│   │   │   ├── Update  
+│   │   │   ├── Delete  
+│   │   ├── Assign Account Status  
+│   │   │   ├── Active  
+│   │   │   ├── Suspended  
+│   │   │   ├── Banned  
+│   │   ├── Reset Passwords  
+│   │   ├── Manage Profiles  
+│   │  
+│   ├── Communication  
+│   │   ├── Reply Reported Tickets  
+│   │   ├── Automated Notifications  
+│   │   │   ├── Web  
+│   │   │   ├── Email  
+│   │  
+│   ├── Reporting & Analytics  
+│   │   ├── Export Logs  
+│   │   ├── Generate Reports  
+│   │   │   ├── Monthly  
+│   │   │   ├── Weekly  
+│   │   ├── System Statistics  
+│  
+├── Teacher  
+│   ├── Course Management  
+│   │   ├── Manage Courses  
+│   │   │   ├── Create  
+│   │   │   ├── Edit  
+│   │   │   ├── Delete  
+│   │   │   ├── Publish  
+│   │   │   ├── Unpublish  
+│   │   ├── Lesson Sequences  
+│   │   ├── Pricing  
+│   │   ├── Prerequisites  
+│   │  
+│   ├── Content Management  
+│   │   ├── Manage Content  
+│   │   │   ├── Add Resources  
+│   │   │   ├── Upload Files  
+│   │   │   ├── Hide/Show  
+│   │   │   ├── Audience  
+│   │   │       ├── Public  
+│   │   │       ├── Private  
+│   │   │       ├── Invite Only  
+│   │  
+│   ├── Create Exercises  
+│   │   ├── Quizzes  
+│   │   ├── Assignments  
+│   │   ├── Projects  
+│   │  
+│   ├── Grading  
+│   │   ├── Manual  
+│   │   ├── Re-Submission  
+│   │   │   ├── Enable  
+│   │   │   ├── Disable  
+│   │   ├── Assignment Deadlines  
+│   │  
+│   ├── Feedback  
+│   │   ├── Web Feedback  
+│   │   ├── Live Meeting  
+│   │  
+│   ├── Course Overview  
+│   │   ├── Particular Student  
+│   │   ├── Class Progress  
+│   │   ├── Monitor Attendance  
+│   │  
+│   ├── Announcements  
+│   │   ├── Personally  
+│   │   ├── Selected Group  
+│   │  
+│   ├── Analytics  
+│   │   ├── Engagement Rate  
+│   │   ├── Drop-Off Points  
+│   │   ├── Performance Trends  
+│   │  
+│   ├── Communication  
+│   │   ├── Live Sessions  
+│   │   │   ├── Q&A  
+│   │   │   ├── Virtual Office Hours  
+│   │   ├── Discussions  
+│   │   │   ├── Enable  
+│   │   │   ├── Disable  
+│   │   ├── Direct Messages  
+│   │  
+│   ├── Certification  
+│   │   ├── Issue  
+│   │   ├── Customize  
+│   │   ├── Requirements  
+│   │  
+│   ├── Monetization  
+│       ├── Enable Paid  
+│       ├── Pricing Tiers  
+│       ├── Discounts  
+│  
+├── Student  
+│   ├── Enroll  
+│   │   ├── Browse  
+│   │   ├── Search  
+│   │   ├── Filter  
+│   │  
+│   ├── Access Materials  
+│   │   ├── View Videos  
+│   │   ├── Download PDFs  
+│   │   ├── Access Slides  
+│   │  
+│   ├── Assignments  
+│   │   ├── Submit  
+│   │   ├── Take Quizzes  
+│   │   ├── Request Extension  
+│   │  
+│   ├── Grades  
+│   │   ├── Check Scores  
+│   │   ├── Read Feedback  
+│   │  
+│   ├── Progress  
+│   │   ├── Track Completion  
+│   │   ├── View Reports  
+│   │   ├── Analyze Trends  
+│   │  
+│   ├── Communication  
+│       ├── Direct Messages  
+│       ├── Group Discussions  
+│       ├── Study Forums  
+│  
+└── Shared Features  
+    ├── Account Management  
+    │   ├── Login  
+    │   ├── Logout  
+    │   ├── Change Password  
+    │   ├── Update Profile  
+    │  
+    ├── Notifications  
+    │   ├── Enable Email  
+    │   ├── Enable Web  
+    │  
+    ├── Search  
+    │   ├── Browse Catalog  
+    │   ├── Filter Resources  
+    │  
+    ├── Help  
+        ├── User Guides  
+        ├── Request Assistance  

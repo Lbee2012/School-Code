@@ -1,0 +1,16 @@
+Mandatory:
+
+Register
+Login
+Logout
+Reset Password
+Search - Keyword (Student)
+
+
+
+Additional:
+
+Payment - Paying (Student)
+Set Goals (Student)
+Submit Assignments (Student)
+Feedback (Student)

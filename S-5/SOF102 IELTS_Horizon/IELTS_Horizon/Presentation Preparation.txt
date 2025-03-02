@@ -1,0 +1,68 @@
+DỰ ÁN IELTS HORIZON
+
+---
+
+1. GIỚI THIỆU DỰ ÁN
+Tên dự án: IELTS Horizon  
+Mục tiêu: Xây dựng một nền tảng học trực tuyến toàn diện, tối ưu hóa quy trình phát triển phần mềm từ phân tích, thiết kế, triển khai đến bảo trì. Dự án không chỉ tập trung vào tính năng học tập mà còn là một bài học thực tế về cách áp dụng quy trình phát triển phần mềm chuẩn vào thực tiễn.
+
+IELTS Horizon ra đời như một sản phẩm ứng dụng từ môn học Nhập Môn Kỹ Thuật Phần Mềm. Dự án bao gồm các giai đoạn quan trọng như phân tích yêu cầu, thiết kế hệ thống, xây dựng cơ sở dữ liệu, lập trình tính năng và kiểm thử phần mềm. Mục tiêu cuối cùng là xây dựng một hệ thống phần mềm hoàn chỉnh, đúng quy trình, có thể mở rộng và bảo trì.
+
+2. Ý TƯỞNG CHÍNH
+- Áp dụng đầy đủ quy trình phát triển phần mềm: Phân tích, Thiết kế, Phát triển, Kiểm thử và Triển khai.
+- Xây dựng kiến trúc hệ thống theo mô hình chuẩn, đảm bảo khả năng mở rộng và bảo trì lâu dài.
+- Tích hợp các công cụ quản lý khóa học, theo dõi tiến độ học viên và đánh giá kết quả học tập.
+- Tăng cường tính bảo mật và hiệu suất hệ thống.
+- Sử dụng các tiêu chuẩn thiết kế phần mềm như UML, ERD, và tuân thủ các nguyên tắc coding chuẩn.
+- Phát triển API để hỗ trợ kết nối giữa các module.
+- Cung cấp tài liệu chi tiết bao gồm SRS, kế hoạch kiểm thử và hướng dẫn triển khai.
+
+IELTS Horizon không chỉ là một nền tảng học tập mà còn là minh chứng rõ ràng về quy trình phát triển phần mềm chuẩn, giúp nhóm phát triển thực hành kỹ năng chuyên môn và làm quen với môi trường làm việc thực tế.
+
+3. CHỦ ĐỀ DỰ ÁN
+"Khai Phá Chân Trời Tri Thức"
+- Horizon mang ý nghĩa về chân trời tri thức, nơi mỗi học viên có thể vươn xa hơn với sự hỗ trợ của công nghệ và quy trình phát triển phần mềm chuyên nghiệp.
+- Dự án IELTS Horizon là sự kết hợp giữa kiến thức kỹ thuật phần mềm và nhu cầu thực tế, đem đến sản phẩm chất lượng cao.
+- Với IELTS Horizon, chúng tôi không chỉ học về phát triển phần mềm mà còn học cách làm việc nhóm, giải quyết vấn đề và quản lý dự án hiệu quả.
+
+4. TÍNH NĂNG NỔI BẬT
+- Quản Lý Khóa Học: Tạo, chỉnh sửa và quản lý khóa học một cách linh hoạt và hiệu quả.
+- Bài Tập và Đánh Giá: Tích hợp hệ thống bài tập tự động, chấm điểm chính xác và phản hồi nhanh chóng.
+- Phản Hồi và Đánh Giá: Cho phép học viên đánh giá khóa học, giáo viên và nhận phản hồi tức thì.
+- Phân Tích Hiệu Quả: Hệ thống báo cáo chi tiết về tiến độ học tập, hiệu suất khóa học và xu hướng cải thiện.
+- Tính Năng Tương Tác: Hỗ trợ giao tiếp trực tuyến qua tin nhắn, diễn đàn, và các buổi học trực tiếp.
+- Cá Nhân Hóa Lộ Trình Học Tập: Đề xuất khóa học phù hợp dựa trên tiến độ và mục tiêu cá nhân.
+- Chứng Chỉ Hoàn Thành: Cấp chứng chỉ số sau khi học viên hoàn thành khóa học.
+- Hệ Thống Gamification: Tạo động lực học tập thông qua các phần thưởng, huy hiệu và bảng xếp hạng.
+- API Kết Nối: Hỗ trợ kết nối với các dịch vụ bên ngoài thông qua API.
+- Bảo Mật và Sao Lưu: Đảm bảo an toàn dữ liệu và sao lưu định kỳ.
+
+5. ĐỐI TƯỢNG SỬ DỤNG
+- Administrators: Quản lý hệ thống, người dùng và cài đặt nền tảng.
+- Teachers: Tạo nội dung khóa học, theo dõi tiến độ học viên và cung cấp phản hồi.
+- Students: Tham gia học tập, làm bài tập, theo dõi tiến độ và nhận chứng chỉ hoàn thành.
+
+6. PHẢN BIỆN DỰ ÁN
+- Câu hỏi từ Học Viên: "Làm sao để bảo mật thông tin người dùng?"
+  Trả lời: Hệ thống sử dụng chuẩn bảo mật SSL, 2FA.
+
+- Câu hỏi từ Giáo Viên: "Làm sao để đánh giá chính xác kết quả học viên?"
+  Trả lời: Tích hợp công cụ AI chấm điểm tự động.
+
+- Câu hỏi từ Admin: "Làm sao để quản lý nhiều khóa học cùng lúc?"
+  Trả lời: Hệ thống hỗ trợ báo cáo và phân loại khóa học hiệu quả.
+
+- Câu hỏi từ Nhóm Phát Triển: "Làm sao để đảm bảo tính mở rộng khi hệ thống phát triển?"
+  Trả lời: Hệ thống được thiết kế với kiến trúc microservices, dễ dàng mở rộng và tích hợp.
+
+- Câu hỏi từ Người Dùng Thực Tế: "Làm sao để đảm bảo trải nghiệm học tập mượt mà?"
+  Trả lời: Tối ưu hóa giao diện và tốc độ tải trang, hỗ trợ đa nền tảng.
+
+- Câu hỏi từ Ban Giám Khảo: "Dự án đã áp dụng quy trình phát triển phần mềm như thế nào?"
+  Trả lời: Dự án áp dụng đầy đủ quy trình phát triển phần mềm từ phân tích, thiết kế, lập trình, kiểm thử và triển khai.
+
+7. KẾT LUẬN
+IELTS Horizon không chỉ là một nền tảng học tập trực tuyến mà còn là minh chứng cho việc áp dụng thành công quy trình phát triển phần mềm. Dự án hướng tới việc trở thành công cụ hỗ trợ toàn diện, giúp học viên và giáo viên đạt được mục tiêu học tập và giảng dạy một cách hiệu quả.
+
+Cùng nhau khai phá chân trời tri thức với IELTS Horizon!
+

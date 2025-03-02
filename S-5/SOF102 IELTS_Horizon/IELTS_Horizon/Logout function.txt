@@ -1,0 +1,17 @@
+| ID    | Precondition                           | Action                        | Expected Result                           | Error Message                                      | P/F  | Type |
+|-------|----------------------------------------|-------------------------------|-------------------------------------------|--------------------------------------------------|------|------|
+| TC-01 | User is logged in                      | Click Logout button           | User is logged out, redirected to login page | None                                             | P    | N    |
+| TC-02 | User is logged in                      | Close browser tab             | Session expires, re-login required       | Session expired. Please log in again            | P    | N    |
+| TC-03 | User is logged in                      | Logout via account settings   | User is logged out, redirected to login  | None                                             | P    | N    |
+| TC-04 | User is logged in                      | Click Logout button twice     | User remains logged out, redirected to login | None                                             | P    | N    |
+| TC-05 | User is logged in, slow internet       | Click Logout button           | Logout request delayed, then success     | Slow response, please wait                      | P    | N    |
+| TC-06 | User is logged in, server down         | Click Logout button           | Logout request failed                    | Server is temporarily unavailable               | F    | N    |
+| TC-07 | User is logged in, session expired     | Click Logout button           | Session already expired, redirected to login | Session expired. Please log in again        | P    | N    |
+| TC-08 | User is logged in                      | Refresh page after logout     | User remains logged out, redirected to login | None                                             | P    | N    |
+| TC-09 | User is logged in                      | Logout from another device    | Current session logs out automatically   | Your session has been logged out remotely      | P    | N    |
+| TC-10 | User is logged in                      | Click Logout button, network lost | Logout request fails, remains logged in | No internet connection. Check your network     | F    | N    |
+| TC-11 | User is logged in                      | Click Logout button, then click Back | User remains logged out, redirected to login | None                                             | P    | N    |
+| TC-12 | User is logged in                      | Click Logout button, then try accessing dashboard | Access denied, redirected to login | Please log in to access dashboard             | P    | N    |
+| TC-13 | User is logged in                      | Logout API request sent manually | Logout request successful, session ends | None                                             | P    | N    |
+| TC-14 | User is logged in, uses browser autofill | Logout and reopen page       | User remains logged out, needs re-login | None                                             | P    | N    |
+| TC-15 | User is logged in                      | Clear cookies and refresh     | User remains logged out, needs re-login | None                                             | P    | N    |
